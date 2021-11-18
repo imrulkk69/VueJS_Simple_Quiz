@@ -10,7 +10,7 @@
 <script>
 import router from '@/router'
 export default {
-    name: 'Start',    
+    name: 'Finish',    
     methods: {
         startAgain(){
             this.$store.commit('clearQuizPoints');
