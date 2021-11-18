@@ -6,7 +6,7 @@
 </template>
 
 <script>
-//import router from '@/router';
+import router from '@/router';
 export default {
   name: 'Timer',
   data() {
@@ -22,7 +22,7 @@ export default {
                 this.timerCount--;
             }, 1000);
         }else{
-          //router.push({ path: '/finish'});
+          router.push({ path: '/finish'});
         }
       },
       immediate: true 
